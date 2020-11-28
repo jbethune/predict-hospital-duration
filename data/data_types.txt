@@ -1,0 +1,42 @@
+race	categorical	AfricanAmerican|Asian|Caucasian|Hispanic|Other
+gender	categorical	Female|Male
+age	interval	take_first
+time_in_hospital	numeric	int
+num_lab_procedures	numeric	int
+num_procedures	numeric	int
+num_medications	numeric	int
+number_outpatient	numeric	int
+number_emergency	numeric	int
+number_inpatient	numeric	int
+number_diagnoses	numeric	int
+max_glu_serum	categorical	None|Norm|>200|>300
+A1Cresult	greater_than	None|Norm|>7|>8
+metformin	categorical	No|Down|Steady|Up
+repaglinide	categorical	No|Down|Steady|Up
+nateglinide	categorical	No|Down|Steady|Up
+chlorpropamide	categorical	No|Down|Steady|Up
+glimepiride	categorical	No|Down|Steady|Up
+acetohexamide	categorical	No|Down|Steady|Up
+glipizide	categorical	No|Down|Steady|Up
+glyburide	categorical	No|Down|Steady|Up
+tolbutamide	categorical	No|Down|Steady|Up
+pioglitazone	categorical	No|Down|Steady|Up
+rosiglitazone	categorical	No|Down|Steady|Up
+acarbose	categorical	No|Down|Steady|Up
+miglitol	categorical	No|Down|Steady|Up
+troglitazone	categorical	No|Down|Steady|Up
+tolazamide	categorical	No|Down|Steady|Up
+examide	categorical	No|Down|Steady|Up
+citoglipton	categorical	No|Down|Steady|Up
+insulin	categorical	No|Down|Steady|Up
+glyburide-metformin	categorical	No|Down|Steady|Up
+glipizide-metformin	categorical	No|Down|Steady|Up
+glimepiride-pioglitazone	categorical	No|Down|Steady|Up
+metformin-rosiglitazone	categorical	No|Down|Steady|Up
+metformin-pioglitazone	categorical	No|Down|Steady|Up
+change	categorical	No|Ch
+diabetesMed	categorical	No|Yes
+readmitted	categorical	NO|<30|>30
+_diag_1	categorical	Complications of pregnancy, childbirth, and the puerperium|Congenital anomalies|Diabetes mellitus|Diseases of the blood and blood-forming organs|Diseases of the circulatory system|Diseases of the digestive system|Diseases of the genitourinary system|Diseases of the musculoskeletal system and connective tissue|Diseases of the nervous system|Diseases of the respiratory system|Diseases of the sense organs|Diseases of the skin and subcutaneous tissue|Endocrine, nutritional, and metabolic diseases and immunity disorders, without diabetes|External causes of injury|Infectious and parasitic diseases|Injury and poisoning|Mental disorders|Neoplasms|Other symptoms involving abdomen and pelvis|Other symptoms, signs, and ill-defined conditions|Supplemental classification|Symptoms concerning nutrition, metabolism, and development
+_diag_2	categorical	Complications of pregnancy, childbirth, and the puerperium|Congenital anomalies|Diabetes mellitus|Diseases of the blood and blood-forming organs|Diseases of the circulatory system|Diseases of the digestive system|Diseases of the genitourinary system|Diseases of the musculoskeletal system and connective tissue|Diseases of the nervous system|Diseases of the respiratory system|Diseases of the sense organs|Diseases of the skin and subcutaneous tissue|Endocrine, nutritional, and metabolic diseases and immunity disorders, without diabetes|External causes of injury|Infectious and parasitic diseases|Injury and poisoning|Mental disorders|Neoplasms|Other symptoms involving abdomen and pelvis|Other symptoms, signs, and ill-defined conditions|Supplemental classification|Symptoms concerning nutrition, metabolism, and development
+_diag_3	categorical	Complications of pregnancy, childbirth, and the puerperium|Congenital anomalies|Diabetes mellitus|Diseases of the blood and blood-forming organs|Diseases of the circulatory system|Diseases of the digestive system|Diseases of the genitourinary system|Diseases of the musculoskeletal system and connective tissue|Diseases of the nervous system|Diseases of the respiratory system|Diseases of the sense organs|Diseases of the skin and subcutaneous tissue|Endocrine, nutritional, and metabolic diseases and immunity disorders, without diabetes|External causes of injury|Infectious and parasitic diseases|Injury and poisoning|Mental disorders|Neoplasms|Other symptoms involving abdomen and pelvis|Other symptoms, signs, and ill-defined conditions|Supplemental classification|Symptoms concerning nutrition, metabolism, and development
